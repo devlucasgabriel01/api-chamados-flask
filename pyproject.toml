@@ -1,0 +1,18 @@
+[project]
+name = "api-chamados-flask"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Lucas Gabriel", email = "167565338+devlucasgabriel01@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "flask>=3.1.3",
+]
+
+[project.scripts]
+api-chamados-flask = "api_chamados_flask:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
